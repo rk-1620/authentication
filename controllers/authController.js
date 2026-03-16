@@ -35,7 +35,7 @@ exports.register = async(req,res)=>{
 
   }
   catch(error){
-    res.status(500).json({error: error.meessage});//internal server error
+    res.status(500).json({error: error.message});//internal server error
   }
 
 
